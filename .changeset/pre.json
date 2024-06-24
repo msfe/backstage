@@ -184,7 +184,28 @@
     "@backstage/plugin-techdocs-react": "1.2.5",
     "@backstage/plugin-user-settings": "0.8.7",
     "@backstage/plugin-user-settings-backend": "0.2.18",
-    "@backstage/plugin-user-settings-common": "0.0.1"
+    "@backstage/plugin-user-settings-common": "0.0.1",
+    "@backstage/plugin-catalog-backend-module-logs": "0.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "bright-panthers-leave",
+    "clever-waves-judge",
+    "create-app-1719229748",
+    "curvy-teachers-smell",
+    "fair-pillows-know",
+    "friendly-stingrays-occur",
+    "funny-laws-tease",
+    "gentle-avocados-obey",
+    "grumpy-wolves-hang",
+    "little-games-fail",
+    "moody-llamas-breathe",
+    "rare-peas-dream",
+    "rich-bears-march",
+    "serious-kings-trade",
+    "silent-experts-move",
+    "soft-clocks-bake",
+    "ten-pots-walk",
+    "thick-lizards-divide",
+    "young-houses-unite"
+  ]
 }

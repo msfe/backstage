@@ -1,5 +1,28 @@
 # @backstage/cli
 
+## 0.26.10-next.0
+
+### Patch Changes
+
+- e2e320c: - remove unused dependencies `winston` and `yn` from the template of backend plugins;
+  - update `msw` to version `2.3.1` in the template of backend plugins;
+    starting with v1 and switching later to v2 is tedious and not straight forward; it's easier to start with v2;
+- 0540c5a: Updated the scaffolding output message for `plugin-common` in `backstage-cli`. Now, when executing `backstage-cli new` to create a new `plugin-common` package, the output message accurately reflects the action by displaying `Creating common plugin package...` instead of the previous, less accurate `Creating backend plugin...`.
+- 7652db4: Only bootstrap global-agent if it's actually being used
+- f0c0039: Fix issue with CLI that was preventing upgrading from 1.28
+- 0510d98: Subpath export `package.json` should be of a unique name to avoid typescript resolution issues
+- Updated dependencies
+  - @backstage/catalog-model@1.5.0
+  - @backstage/cli-common@0.1.14
+  - @backstage/cli-node@0.2.6
+  - @backstage/config@1.2.0
+  - @backstage/config-loader@1.8.1
+  - @backstage/errors@1.2.4
+  - @backstage/eslint-plugin@0.1.8
+  - @backstage/integration@1.12.0
+  - @backstage/release-manifests@0.0.11
+  - @backstage/types@1.1.1
+
 ## 0.26.7
 
 ### Patch Changes
